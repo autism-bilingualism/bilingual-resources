@@ -1,0 +1,38 @@
+html {
+    max-width: 800px;
+    margin: auto;
+}
+
+body {
+    margin: 30px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+header h1 {
+    text-align: center;
+}
+
+hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+footer {
+    margin-top: 80px;
+}
+
+.email {
+    text-align: center;
+}
+
+#happy-img {
+    bottom: 100px;
+    max-width: 30%;
+    min-width: 200px;
+}
