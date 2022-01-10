@@ -9,12 +9,6 @@ body {
     margin: 30px;
 }
 
-@media screen and (max-width: 600px) {
-    body {
-        margin: 5px;
-    }
-}
-
 img {
     display: block;
     max-width: 100%;
@@ -46,6 +40,7 @@ footer {
 
 #questions {
     position: relative;
+    overflow: hidden;
 }
 
 #questions::before {
@@ -53,9 +48,10 @@ footer {
     content: "";
     position: absolute;
     top: 0px;
-    bottom: 0px;
+    bottom: 30px;
     left: 0px;
     right: 0px;
+    min-width: 450px;
     background-image: url(../assets/questions.jpg);
     background-repeat: no-repeat;
     background-position: center bottom;
@@ -68,3 +64,22 @@ footer {
     max-width: 30%;
     min-width: 200px;
 }
+
+@media screen and (max-width: 600px) {
+    body {
+        margin: 15px;
+    }
+
+    header h1 {
+        font-size: 2em;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+}
+
