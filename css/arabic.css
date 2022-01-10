@@ -1,0 +1,69 @@
+html {
+    max-width: 800px;
+    margin: auto;
+    text-align: right;
+    direction: rtl;
+}
+
+body {
+    margin: 30px;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        margin: 5px;
+    }
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+header h1 {
+    text-align: center;
+}
+
+hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+footer {
+    margin-top: 80px;
+}
+
+.center {
+    text-align: center;
+}
+
+.email {
+    text-align: center;
+}
+
+#questions {
+    position: relative;
+}
+
+#questions::before {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-image: url(../assets/questions.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: contain;
+    opacity: 0.6;
+}
+
+#happy-img {
+    bottom: 100px;
+    max-width: 30%;
+    min-width: 200px;
+}

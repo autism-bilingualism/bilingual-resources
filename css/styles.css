@@ -1,0 +1,110 @@
+/* @font-face { */
+/*     font-family: hind; */
+/*     src: url(fonts/HindMadurai-Light) */
+/* } */
+
+@font-face {
+    font-family: nunito;
+    src: url(fonts/Nunito-Regular.ttf)
+}
+
+@font-face {
+    font-family: nunito-bold;
+    src: url(fonts/Nunito-Bold.ttf)
+}
+
+@font-face {
+    font-family: nunito-bold-italic;
+    src: url(fonts/Nunito-SemiBoldItalic.ttf)
+}
+
+html {
+    font-family: 'nunito', sans-serif;
+    text-align: justify;
+    text-justify: inter-word;
+    max-width: 800px;
+    margin: auto;
+}
+
+body {
+    margin: 30px;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        margin: 5px;
+    }
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+/* p { */
+/*     font-family: 'hind', sans-serif; */
+/* } */
+
+h1 {
+    font-family: 'nunito-bold', sans-serif;
+}
+
+h3 {
+    font-family: 'nunito-bold-italic', sans-serif;
+}
+
+header h1 {
+    font-size: 3em;
+    text-align: center;
+}
+
+hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+footer {
+    margin-top: 80px;
+}
+
+.center {
+    text-align: center;
+}
+
+.email {
+    text-align: center;
+}
+
+.list-select {
+    display: table;
+    margin: auto;
+    text-align: left;
+}
+
+#questions {
+    position: relative;
+}
+
+#questions::before {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    min-width: 700px;
+    background-image: url(../assets/questions.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: contain;
+    opacity: 0.6;
+}
+
+#happy-img {
+    bottom: 100px;
+    max-width: 30%;
+    min-width: 200px;
+}
