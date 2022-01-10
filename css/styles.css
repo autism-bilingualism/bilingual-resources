@@ -43,6 +43,7 @@ img {
 
 h1 {
     font-family: 'nunito-bold', sans-serif;
+    margin-bottom: 40px;
 }
 
 h3 {
@@ -114,11 +115,15 @@ footer {
     }
 
     h1 {
-        font-size: 1.5em;
+        font-size: 1.3em;
     }
 
     h2 {
         font-size: 1.2em;
+    }
+
+    h3 {
+        font-size: 1.1em;
     }
 }
 
