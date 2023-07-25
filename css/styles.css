@@ -78,6 +78,13 @@ footer {
     text-align: left;
 }
 
+.logo {
+    margin-top: 25px;
+    max-width: 25%;
+    min-width: 100px;
+    height: auto;
+}
+
 #questions {
     position: relative;
     overflow: hidden;
